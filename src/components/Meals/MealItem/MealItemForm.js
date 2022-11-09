@@ -20,7 +20,7 @@ const MealItemForm = (props) => {
       return;
     }
 
-    props.onAddToCart(enteredAmountNumber)
+    props.onAddToCart(enteredAmountNumber);
   };
 
   return (
@@ -37,7 +37,7 @@ const MealItemForm = (props) => {
           defaultValue: '1',
         }}
       />
-      <button>+ Add</button>
+      <button>+ Добавить</button>
       {!amountIsValid && <p>Введите корректное количество блюд от 1 до 5</p>}
     </form>
   );
