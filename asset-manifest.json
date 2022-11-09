@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/namerepository/static/css/main.866039bf.chunk.css",
-    "main.js": "/namerepository/static/js/main.5f95b84c.chunk.js",
-    "main.js.map": "/namerepository/static/js/main.5f95b84c.chunk.js.map",
-    "runtime-main.js": "/namerepository/static/js/runtime-main.c274a1fd.js",
-    "runtime-main.js.map": "/namerepository/static/js/runtime-main.c274a1fd.js.map",
-    "static/js/2.2eff069f.chunk.js": "/namerepository/static/js/2.2eff069f.chunk.js",
-    "static/js/2.2eff069f.chunk.js.map": "/namerepository/static/js/2.2eff069f.chunk.js.map",
-    "index.html": "/namerepository/index.html",
-    "static/css/main.866039bf.chunk.css.map": "/namerepository/static/css/main.866039bf.chunk.css.map",
-    "static/js/2.2eff069f.chunk.js.LICENSE.txt": "/namerepository/static/js/2.2eff069f.chunk.js.LICENSE.txt",
-    "static/media/meals.7db25021.jpg": "/namerepository/static/media/meals.7db25021.jpg"
+    "main.css": "/Restoran/static/css/main.866039bf.chunk.css",
+    "main.js": "/Restoran/static/js/main.5f95b84c.chunk.js",
+    "main.js.map": "/Restoran/static/js/main.5f95b84c.chunk.js.map",
+    "runtime-main.js": "/Restoran/static/js/runtime-main.ca8aa306.js",
+    "runtime-main.js.map": "/Restoran/static/js/runtime-main.ca8aa306.js.map",
+    "static/js/2.2eff069f.chunk.js": "/Restoran/static/js/2.2eff069f.chunk.js",
+    "static/js/2.2eff069f.chunk.js.map": "/Restoran/static/js/2.2eff069f.chunk.js.map",
+    "index.html": "/Restoran/index.html",
+    "static/css/main.866039bf.chunk.css.map": "/Restoran/static/css/main.866039bf.chunk.css.map",
+    "static/js/2.2eff069f.chunk.js.LICENSE.txt": "/Restoran/static/js/2.2eff069f.chunk.js.LICENSE.txt",
+    "static/media/meals.7db25021.jpg": "/Restoran/static/media/meals.7db25021.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c274a1fd.js",
+    "static/js/runtime-main.ca8aa306.js",
     "static/js/2.2eff069f.chunk.js",
     "static/css/main.866039bf.chunk.css",
     "static/js/main.5f95b84c.chunk.js"
