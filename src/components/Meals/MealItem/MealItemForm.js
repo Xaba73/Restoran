@@ -1,16 +1,18 @@
 import { useRef, useState } from 'react';
+
 import Input from '../../UI/Input';
 import classes from './MealItemForm.module.css';
 
 const MealItemForm = (props) => {
-  const amountInputRef = useRef();
   const [amountIsValid, setAmountIsValid] = useState(true);
+  const amountInputRef = useRef();
 
   const submitHandler = (event) => {
     event.preventDefault();
 
     const enteredAmount = amountInputRef.current.value;
     const enteredAmountNumber = +enteredAmount;
+
     if (
       enteredAmount.trim().length === 0 ||
       enteredAmountNumber < 1 ||
@@ -29,7 +31,7 @@ const MealItemForm = (props) => {
         ref={amountInputRef}
         label='Количество'
         input={{
-          id: 'amount_' + props.id,
+          id: 'amount',
           type: 'number',
           min: '1',
           max: '5',
@@ -38,7 +40,9 @@ const MealItemForm = (props) => {
         }}
       />
       <button>+ Добавить</button>
-      {!amountIsValid && <p>Введите корректное количество блюд от 1 до 5</p>}
+      {!amountIsValid && (
+        <p>Пожалуйста, введите верное количество блюд (1-5).</p>
+      )}
     </form>
   );
 };
